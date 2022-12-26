@@ -1,0 +1,22 @@
+{
+  "name": "my_aya_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dc9701/my_aya_sample.git"
+  },
+  "author": "David Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dc9701/my_aya_sample/issues"
+  },
+  "homepage": "https://github.com/dc9701/my_aya_sample#readme",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}
