@@ -8,7 +8,7 @@ const loginPage = new LoginPage()
 const homePage = new HomePage()
 const checklistPage = new CnaChecklistPage()
 
-describe('My First Cypress Test', function () {
+describe('AYA Healthcare Example Test', function () {
   const userEmail = "dcc9701@gmail.com"
   const userName = "David Cooper"
   const userPassword = "Aya-dcc9701"
@@ -45,6 +45,7 @@ describe('My First Cypress Test', function () {
       homePage.getChecklistsStartButton().should('be.visible')
       homePage.logout()
     })
+
   })
 
 })
